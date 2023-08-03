@@ -3,6 +3,14 @@ This application displays Movie viewing history and consumes movie data from [Th
 
 The application is bootstrapped using Vite and built using React + Typescript and Material UI and is unit-tested with Jest and React Testing library.
 
+![image](https://github.com/meldsz/movie-podcast/assets/11755694/f2d45898-6f96-4c7c-8008-35bb38b86b32)
+
+![image](https://github.com/meldsz/movie-podcast/assets/11755694/d3aefdbc-09b5-4caa-b4c5-b71c3027471a)
+
+
+![image](https://github.com/meldsz/movie-podcast/assets/11755694/8c29e6f3-29b2-4cec-8f54-d846c0baaa01)
+
+
 
 # 💻  Developer Environment Setup Guide
 
