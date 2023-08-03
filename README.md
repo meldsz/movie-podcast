@@ -1,27 +1,61 @@
-# React + TypeScript + Vite
+# Movie Podcast
+This application displays Movie viewing history and consumes movie data from [The Open Movie Database](https://www.omdbapi.com/) API. You can find movies by search functionality, view the details of the movie and add your review. It also shows you the list of movies you've watched and lets you update your review.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application is bootstrapped using Vite and built using React + Typescript and Material UI and is unit-tested with Jest and React Testing library.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 💻  Developer Environment Setup Guide
 
-## Expanding the ESLint configuration
+## 📔 Pre-Requirements:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You need to have Node.js version 14.18+ installed on your computer
 
-- Configure the top-level `parserOptions` property like this:
+## ⚙️ Initial Setup
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+In order to setup the application locally, Clone this repository and follow the below steps
+
+### Running Application Locally
+
+Install project dependencies:
+
+    $ npm install
+
+Run the application locally on dev server
+   
+    
+    $ npm run dev
+
+By default, Vite dev server runs the application on [http://localhost:5173](http://localhost:5173). 
+
+### Production Build
+
+To the build the application for production,
+
+    
+    $ npm run build
+    
+
+To Preview the production build locally,
+   
+    
+    $ npm run preview
+    
+
+By default, Vite runs the preview application on [http://localhost:4173](http://localhost:4173). 
+
+### 🏃 Running Tests
+
+run the below command to run unit tests for react application   
+    
+    
+    $ npm run test
+    
+
+
+
+### ✅ Features:
+- Search Movie by Title
+- View Movie details 
+- Add movie to Viewing History
+- Add/Update your movie review
