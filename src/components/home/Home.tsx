@@ -6,6 +6,8 @@ import { useViewingHistory } from '../../hooks/useViewingHistory'
 import { useState, useEffect } from 'react'
 
 const AppStyled = styled.div`
+  padding: 50px;
+  
   @media(min-width: 768px) {
     padding: 50px;
   }

@@ -7,11 +7,11 @@ import MovieModal from "../movieDetails/MovieModal";
 import MovieItem from "../movieItem/MovieItem";
 
 const SearchStyled = styled.div`
-  width: 90%;
-  margin: auto;
+  width: 100%;
 
-  @media (min-width: 768px) {
-    width: 50%
+  @media (min-width: 992px) {
+    width: 60%;
+    margin: auto;
   }
 `;
 
@@ -44,7 +44,8 @@ const Search = () => {
                 loading={isLoading}
                 onChange={(e, { imdbID }: { imdbID: string }) => selectMovie(imdbID)}
                 noOptionsText="No Movies Found"
-                sx={{ width: '60%' }}
+                fullWidth
+                sx={{ py: 4 }}
                 renderOption={(props, option: any) =>
                     (<MovieItem {...props} movie={option} />)
                 }
